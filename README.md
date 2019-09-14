@@ -22,6 +22,7 @@ So...our phases
 
 Phase 1 - `v0.0.1` (current)
 - the above, i.e. "just get it working" :muscle:
+- see "immediate next steps" below
 
 Phase 2 - `v0.1.0` :bar_chart:
 - integrate data with charts
@@ -30,14 +31,16 @@ Phase 2 - `v0.1.0` :bar_chart:
 
 Phase 3 - `v1.0.0` :trophy:
 - remove manual steps
+- automatically generate png images of charts
 - run entire project from one line
 
 Phase 4 - `v2.0.0` :man_shrugging:
 - TBD
 
 ## Immediate next steps
+- remove duplication in charts
 - make charts dynamic, currently the data was manually copy/pasted (:disappointed:)
-- code cleanup, remove commented out code, etc. 
+- code cleanup, remove commented out code, etc.
 
 ## Assumptions
 - you have the refactoring 2nd edition pdf (note: this file is _not_ committed)
