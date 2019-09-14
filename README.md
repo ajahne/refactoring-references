@@ -11,3 +11,6 @@ Documenting (and plotting) the most referenced refactorings from [Refactoring 2n
 - use regex to find the references (based on the json file described above)
 - save the references as a data file
 - use chart.js to plot the data
+
+## Assumptions
+- you have the refactoring 2nd edition pdf (note: this file is _not_ committed)
