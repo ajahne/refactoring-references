@@ -1,17 +1,17 @@
 # Parsing the refactoring pdf
-This script parses the refactoring 2nd edition pdf and exports as text file.
+This script parses the refactoring 2nd edition pdf and exports it as text file.
 
 ## Getting started
 ```
 npm install
 ```
 
-after installed change into the refactoring directory
+After installation, change into the refactoring directory
 ```
 cd refactoring
 ```
 
-run the script
+Run the script
 ```
 node parse-refactoring.js
 ```
@@ -28,5 +28,5 @@ The output of the script will be under `assets/`
 - [Extract text in the right order](https://stackoverflow.com/questions/50788543/pdf-js-mozilla-lib-issue-get-or-extract-pure-text-with-right-order)
 
 ## Notes & Assumptions
-- `src/pdf/assets/refactoring-improving-existing-2nd.pdf` exists.
+- `src/pdf/assets/refactoring-improving-existing-2nd.pdf` exists
 - x, y positions of text in pdf.js, maps to `transform[4]` and `transform[5]`
