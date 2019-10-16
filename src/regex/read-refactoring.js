@@ -59,9 +59,7 @@ function createListOfRefactorings(data) {
       page: pageNumbers[key],
       references: data.match(re).length
     });
-    // console.log(`"${key}" is referenced ${data.match(re).length} times.`);
   }
-  // console.log(`Number of Refactorings ${length}`);
   return refactorings;
 }
 
@@ -78,18 +76,6 @@ function sort(refactorings) {
   refactorings.sort(compareNumbers);
   refactorings.reverse();
 }
-
-/**
-Extract function +
-Extract Variable +
-Move Function +
-Move statmens into function vs Extract Function
-Rename Field
-Rename Variable +
-Replace Loop with Pipeline
-Slide Statements +
-Decompose Conditional
-*/
 
 function getRefactoringPageNumbers() {
   //61 from the book
